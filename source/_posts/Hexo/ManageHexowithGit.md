@@ -4,24 +4,23 @@ author: Benedict Ng
 categories:
     - Hexo
 ---
-It's annoying to manage Hexo blogs with git and github because of lacking of resources in internet. Here I show a method to manage my Hexo blog.
+It's annoying to manage Hexo blogs with git and Github because of lacking of resources in internet. Here I show a method to manage my Hexo blog.
 
-Before getting started, let's assume you have done the following works:
+The repos in Github will be:
 
-1. You have setup your github page and the local blog can be deployed to it.
-2. You have initialized a you Hexo project folder as git repo and linked it with the remote github page repo.
+1. `username.github.io` repo. This is the Github page repo to demonstrate your blog.
+2. `hexo-theme` repo. This repo is to store your hexo theme. It is forked from other authors.
+3. `HexoSourceCode` repo. This is the repo to store your source code of your Hexo project and it contains a submodule used as theme.
 
-Note: You can push the source code of the Hexo project to your github page repo and the github page still can be deployed properly.
+## Setup deployment configuration
 
-The result will be:
+This is already specified in the official website. So I just attach the link below. Please note: the url must match with your Github page repo.
 
-1. `username.github.io` repo. It is to store the project source files and used as github pages, and it contains a submodule used as your theme.
-2. `HexoSourceCode` repo. 
-3. `hexo-theme` repo. This repo is to store your hexo theme. It is forked from other authors.
+[How to deploy](https://hexo.io/docs/github-pages#One-command-deployment)
 
 ## Fork a desired theme and clone it
 
-1. Go to your desired theme github repo and fork it as your own. You can rename your forked repo..
+1. Go to your desired theme Github repo and fork it as your own. You can rename your forked repo..
 2. Go to your forked repo and clone it to the `themes` folder. The command should be:
 
 ```shell
@@ -57,4 +56,32 @@ git commit -m "Added submodule from existing repository"
 git status
 ```
 
-And now you can commit your changes and push them to your remote repo.
+## Create source code repo in Github and associate it with local repo
+
+Just associate your local repo with your `HexoSourceCode` repo like normal.
+
+1. Create a remote repo used to store your source code in Github. Let's assume its name is `HexoSourceCode`.
+2. Initialize your local git repo in your Hexo folder.
+
+```shell
+git init
+```
+
+3. Add all files to staged zone and commit them.
+
+```shell
+git add --all
+git commit -m "Initial Commit"
+```
+
+4. Associate you local repo with remote repo.
+
+```shell
+git remote add origin HexoSourceCode_url.git
+```
+
+5. Push to remote repo
+
+```shell
+git push -u origin main
+```
