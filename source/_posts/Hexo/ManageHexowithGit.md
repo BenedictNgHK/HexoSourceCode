@@ -16,7 +16,7 @@ Note: You can push the source code of the Hexo project to your github page repo 
 The result will be:
 
 1. `username.github.io` repo. It is to store the project source files and used as github pages, and it contains a submodule used as your theme.
-2. `HexoSourceCode` repo.
+2. `HexoSourceCode` repo. 
 3. `hexo-theme` repo. This repo is to store your hexo theme. It is forked from other authors.
 
 ## Fork a desired theme and clone it
