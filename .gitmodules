@@ -1,0 +1,3 @@
+[submodule "themes/bp-gallery"]
+	path = themes/bp-gallery
+	url = https://github.com/BP-Devteam/hexo-theme-bp-gallery.git
