@@ -1,10 +1,10 @@
 ---
 title: Two Sum
 author: Benedict Ng
+date: 2024-08-28 19:15:56
 categories:
     - LeetCode
 ---
-
 **[Link to Problem](https://leetcode.com/problems/two-sum/)**
 
 This is the very beginning of LeetCode, where the dream starts (or ends 🤣). Enjoy your journey!
@@ -89,7 +89,7 @@ public:
         vector<int> ret_val(2,-1);
         for(int i = 0; i < nums.size(); i++)
         {
-            
+        
 
             a.insert(map<int,int>::value_type(nums[i],i));              // Insert an element and its index
             if(a.count(target-nums[i]) >0 && a[target-nums[i]] != i)    // Check if the difference between target and nums[i] exists
@@ -99,7 +99,7 @@ public:
                 break;
             }
         }
-        
+    
         return ret_val;
     }
 };
@@ -109,4 +109,4 @@ The `std::map` is an stl container and it is implemented with red black tree. So
 
 This snippet of code insert a key-value pair into `std::map` in each `for` loop, and check if the difference between `target` and `nums[i]` exists in the `std::map a`. The assertion `a[target-nums[i]] != i` is to avoid duplicates in the return value, since `a.insert()` is before `a.count()`.
 
-And this is the end of my note. Enjoy your day! 
+And this is the end of my note. Enjoy your day!
