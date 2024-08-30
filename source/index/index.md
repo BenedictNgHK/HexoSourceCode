@@ -1,6 +1,5 @@
 ---
 title: Index Page
-date: 2024-08-28 22:15:56
 ---
 ## Uncategorized
 

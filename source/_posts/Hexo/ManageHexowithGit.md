@@ -1,7 +1,6 @@
 ---
 title: Manage Hexo with Git
 author: Benedict Ng
-date: 2024-07-28 22:15:56
 categories:
     - Hexo
 ---

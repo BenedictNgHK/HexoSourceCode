@@ -1,7 +1,6 @@
 ---
 title: Permutations
 author: Benedict Ng
-date: 2024-08-30 22:15:56
 categories:
     - LeetCode
 ---
@@ -153,12 +152,12 @@ public:
     {
         vector<int> help_arr(nums.size());
         bool * Bucket  = new bool[nums.size()];
-    
+  
         memset(Bucket,false,sizeof(bool)*nums.size());
         help(nums,Bucket, help_arr, 0);
-    
+  
         delete [] Bucket;
-    
+  
         return ret_val;
     }
     void help(vector<int>& nums,  bool * Bucket, vector<int>& help_arr, int help_index)

@@ -1,7 +1,6 @@
 ---
 title: Two Sum
 author: Benedict Ng
-date: 2024-08-28 19:15:56
 categories:
     - LeetCode
 ---
@@ -89,7 +88,7 @@ public:
         vector<int> ret_val(2,-1);
         for(int i = 0; i < nums.size(); i++)
         {
-        
+      
 
             a.insert(map<int,int>::value_type(nums[i],i));              // Insert an element and its index
             if(a.count(target-nums[i]) >0 && a[target-nums[i]] != i)    // Check if the difference between target and nums[i] exists
@@ -99,7 +98,7 @@ public:
                 break;
             }
         }
-    
+  
         return ret_val;
     }
 };

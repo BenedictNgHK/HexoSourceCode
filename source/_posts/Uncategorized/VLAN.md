@@ -1,7 +1,6 @@
 ---
 title: VLAN
 author: Benedict Ng
-date: 2024-08-28 23:15:56
 categories:
     - Uncategorized
 ---

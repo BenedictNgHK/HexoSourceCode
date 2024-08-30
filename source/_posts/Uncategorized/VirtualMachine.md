@@ -1,7 +1,6 @@
 ---
 title: Virtual Machine
 author: Benedict Ng
-date: 2024-08-28 22:16:56
 categories:
     - Uncategorized
 ---
