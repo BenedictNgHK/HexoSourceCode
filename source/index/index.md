@@ -16,3 +16,9 @@ title: Index Page
 2. [LeetCode 46](/LeetCode/LeetCode46/index.html)
 
 ## PWN
+
+1. [Prerequisites](/categories/PWN/prerequisites/index.html)
+   1. [Segments and Sections](/PWN/SegmentsandSections/index.html)
+   2. [Endianness](/PWN/Endianness/index.html)
+   3. [Assembly](/PWN/Assembly/index.html)
+2. [Practice]()
