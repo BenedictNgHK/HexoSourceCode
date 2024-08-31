@@ -2,7 +2,7 @@
 title: Virtual Machine
 author: Benedict Ng
 categories:
-    - Uncategorized
+    - [OS]
 ---
 ## What is virtual machine?
 
