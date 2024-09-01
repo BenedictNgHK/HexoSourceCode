@@ -21,7 +21,8 @@ title: Index Page
    2. [Endianness](/PWN/Endianness/index.html)
    3. [Assembly](/PWN/Assembly/index.html)
    4. [Shellcode](PWN/Shellcode/index.html)
-2. [Practice]()
+2. [Tools](/categories/PWN/Tools/index.html)
+   1. [GDB](/PWN/GDB/index.html)
 
 ## OS
 
