@@ -1,5 +1,5 @@
 ---
-title: Index Page
+title: Sitemap
 ---
 ## Uncategorized
 
@@ -24,6 +24,7 @@ title: Index Page
 2. [Tools](/categories/PWN/Tools/index.html)
    1. [GDB](/PWN/GDB/index.html)
 
-## OS
+## Operation System
 
-1. [Pipe](/OS/Pipe/index.html)
+1. [Virtual Machine](/OS/VirtualMachine/indx.html) 
+2. [Pipe](/OS/Pipe/index.html)

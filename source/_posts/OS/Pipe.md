@@ -4,7 +4,6 @@ author: Benedict Ng
 categories:
     - [OS]
 ---
-
 Pipe is a mechanism of inter-process communication (IPC). There are 2 types of pipe: unnamed pipe and named pipe. For unnamed pipe, they can only communicate between parent and child processes or sibling processes. For named pipe, it can communicate between random processes. The content produced at one end of pipe will be consumed at the other end of pipe (producer-consumer model).
 
 Using pipe to read command output to the terminal:
@@ -23,7 +22,7 @@ int main(void)
         printf("%s", scree_str);
         pclose(content);
     }
-    
+  
     return 0;
 }
 ```

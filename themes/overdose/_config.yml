@@ -1,0 +1,86 @@
+# main menu navigation
+menu:
+  Posts: /
+  Sitemap: /sitemap/sitemap.html
+#  Archives: /archives/
+  Hexo: /categories/Hexo/
+  LeetCode: /categories/LeetCode/
+  PWN: /categories/PWN/
+  Operation System: /categories/OS/
+  Github: https://github.com/BenedictNgHK
+  Email: mailto:yuzewuchina@gmail.com
+# Images
+favicon: /images/icon.png
+## Post default banner image
+## Please specify width and height for google's structured data (Schema.org SEO)
+default:
+  url: /images/default.jpg
+  width: 1280
+  height: 720
+
+# Font
+## availableFontList: [
+##   'noto-sans-kr',
+##   'spoqa-han-sans-kr',
+##   'spoqa-han-sans-jp'
+## ]
+## If you don't want font, you shouldn't specify the font.
+font:
+
+# Dynamic menu with scrolling
+dynamic_menu: true
+
+# Highlight theme
+## You can also use various themes in `css/highlights`
+highlight: rainbow
+
+# Related posts
+## If you don't want `related posts` feature, you should specify the value as 0.
+## If you want more related posts, you can do it too.
+## But I don't recommend to specify over than 3.
+related_posts: 3 # default enabled as 3
+
+# Profile
+profile:
+  image: /images/avatar.jpg
+  gravatar:
+  link:
+  description: "Social Media" 
+  social:
+    github: https://github.com/BenedictNgHK
+    facebook: https://www.facebook.com/BenedictNgYuzeWu # Facebook property also used in `article:author` meta tag.
+    linkedin: https://www.linkedin.com/in/yuze-wu-a100011ba
+#    email: mailto:yuzewuchina@gmail.com
+    instagram: 
+    twitter:
+#    rss: /atom.xml
+
+# Footer widgets
+## Don't use over than 3 widgets.
+## availableWidgetList: [
+##   'archives',
+##   'categories',
+##   'recent-posts',
+##   'tag-cloud',
+##   'tags'
+## ]
+## If you don't want widget, you shouldn't specify widgets.
+widgets:
+  - recent-posts
+#  - archives
+  - categories
+
+# Other Services
+google_analytics: G-3WGY09S1RR
+google_site_verification:
+naver_site_verification:
+
+# Open graph
+facebook:
+fb_admin:
+twitter:
+google_plus:
+
+#liveRe
+# liveRe:
+#  uid:

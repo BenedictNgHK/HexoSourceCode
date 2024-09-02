@@ -44,3 +44,5 @@ Debugging a elf file: `gdb filename`.
 | continue              | c     | continue executing till the next breakpoint. |
 | set var `var`=`value` |       | set variable `var` of value `value`. |
 | quit                  | q     | quit gdb environment. |
+
+## Core Dump
