@@ -3,12 +3,13 @@ menu:
   Posts: /
   Sitemap: /sitemap/
 #  Archives: /archives/
-  Hexo: /categories/Hexo/
-  LeetCode: /categories/LeetCode/
-  PWN: /categories/PWN/
-  Operation System: /categories/Operation-System/
+  # Hexo: /categories/Hexo/
+  # LeetCode: /categories/LeetCode/
+  # PWN: /categories/PWN/
+  # Operation System: /categories/Operation-System/
   Github: https://github.com/BenedictNgHK
   Email: mailto:yuzewuchina@gmail.com
+  Friend Links: /friendlinks/
 # Images
 favicon: /images/icon.png
 ## Post default banner image
