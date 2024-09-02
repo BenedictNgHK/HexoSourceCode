@@ -2,17 +2,17 @@
 title: Assembly
 author: Benedict Ng
 categories:
-    - [PWN, theory]
+    - [PWN, Theory]
 ---
 ## Assembly Syntax
 
 There are 2 types of styles of assembly code: Intel and AT&T. The main difference is: In Intel syntax the first operand is the destination, and the second operand is the source whereas in AT&T syntax the first operand is the source and the second operand is the destination. Here is a brief example of Intel and AT&T syntax:
 
-|Intex Syntax       | AT&T                  |
-| :--------:        |   :---:               |
-| mov     eax,1     |   movl    $1,%eax     |
-| mov     ebx,0ffh  |   movl    $0xff,%ebx  |
-| int     80h       |   int     $0x80       |
+|   Intex Syntax   |        AT&T        |
+| :--------------: | :----------------: |
+|  mov     eax,1  |  movl    $1,%eax  |
+| mov     ebx,0ffh | movl    $0xff,%ebx |
+|   int     80h   |   int     $0x80   |
 
 Please refer the [reference](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm) to dive deeper. This article will be based on Intel syntax.
 
@@ -173,15 +173,15 @@ DEC [RAX] // Decrease the value stored in the address by 1
 INC and DEC will affect following bits in FLAGS register:
 
 - PF (bit 2) Parity flag — Set if the least-significant byte of the result contains an even number of 1 bits;
-cleared otherwise.
+  cleared otherwise.
 - AF (bit 4) Auxiliary Carry flag — Set if an arithmetic operation generates a carry or a borrow out of bit
-3 of the result; cleared otherwise. This flag is used in binary-coded decimal (BCD) arithmetic.
+  3 of the result; cleared otherwise. This flag is used in binary-coded decimal (BCD) arithmetic.
 - ZF (bit 6) Zero flag — Set if the result is zero; cleared otherwise.
 - SF (bit 7) Sign flag — Set equal to the most-significant bit of the result, which is the sign bit of a signed
-integer. (0 indicates a positive value and 1 indicates a negative value.)
+  integer. (0 indicates a positive value and 1 indicates a negative value.)
 - OF (bit 11) Overflow flag — Set if the integer result is too large a positive number or too small a negative
-number (excluding the sign-bit) to fit in the destination operand; cleared otherwise. This flag
-indicates an overflow condition for signed-integer (two’s complement) arithmetic.
+  number (excluding the sign-bit) to fit in the destination operand; cleared otherwise. This flag
+  indicates an overflow condition for signed-integer (two’s complement) arithmetic.
 
 ## ADD & SUB
 
@@ -195,14 +195,14 @@ SUB RAX, 0x28   // subtract 0x28 from RAX and store the difference in rax
 ADD and SUB will affect following bits in FLAGS register:
 
 - CF (bit 0) Carry flag — Set if an arithmetic operation generates a carry or a borrow out of the mostsignificant bit of the result; cleared otherwise. This flag indicates an overflow condition for
-unsigned-integer arithmetic. It is also used in multiple-precision arithmetic.
+  unsigned-integer arithmetic. It is also used in multiple-precision arithmetic.
 - PF (bit 2) Parity flag — Set if the least-significant byte of the result contains an even number of 1 bits;
-cleared otherwise.
+  cleared otherwise.
 - AF (bit 4) Auxiliary Carry flag — Set if an arithmetic operation generates a carry or a borrow out of bit
-3 of the result; cleared otherwise. This flag is used in binary-coded decimal (BCD) arithmetic.
+  3 of the result; cleared otherwise. This flag is used in binary-coded decimal (BCD) arithmetic.
 - ZF (bit 6) Zero flag — Set if the result is zero; cleared otherwise.
 - SF (bit 7) Sign flag — Set equal to the most-significant bit of the result, which is the sign bit of a signed
-integer. (0 indicates a positive value and 1 indicates a negative value.)
+  integer. (0 indicates a positive value and 1 indicates a negative value.)
 - OF (bit 11) Overflow flag — Set if the integer result is too large a positive number or too small a negative
-number (excluding the sign-bit) to fit in the destination operand; cleared otherwise. This flag
-indicates an overflow condition for signed-integer (two’s complement) arithmetic.
+  number (excluding the sign-bit) to fit in the destination operand; cleared otherwise. This flag
+  indicates an overflow condition for signed-integer (two’s complement) arithmetic.

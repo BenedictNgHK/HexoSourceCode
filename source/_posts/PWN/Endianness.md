@@ -2,7 +2,7 @@
 title: Endianness
 author: Benedict Ng
 categories:
-    - [PWN, theory]
+    - [PWN, Theory]
 ---
 Endianness is a quite simple concept. They are 2 types of endianness: big endian and little endian. Nowadays most machines use little endian but for some old machines, they adopted big endian.
 
@@ -26,13 +26,13 @@ int main(int argc,char *argv[]){
         unsigned int data = 0x12345678;
         char *p; 
         p = (char*)&data; // truncate the int and preserve the data in the lowest address
-       
+     
         printf("data = 0x%0x  \n",data);
         printf("*p = 0x%0x\n",*p);
         printf("*(P+1) = 0x%0x\n",*(p+1));
         printf("*(p+2) = 0x%0x\n",*(p+2));
         printf("*(p+3) = 0x%0x\n",*(p+3));
-      
+    
         return 0;
 }
 ```

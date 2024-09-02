@@ -67,6 +67,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  OS: "Operation System"
 tag_map:
 
 # Metadata elements
@@ -98,6 +99,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: overdose
 
+disqus_shortname: "Yuze Wu"
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

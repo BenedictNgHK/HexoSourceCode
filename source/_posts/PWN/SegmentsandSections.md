@@ -2,7 +2,7 @@
 title: Segments and Sections
 author: Benedict Ng
 categories:
-    - [PWN, theory]
+    - [PWN, Theory]
 ---
 [Reference Link](./https://medium.com/@johnehk86/66-what-are-memory-and-sections-text-data-bss-rodata-etc-e134bd5b9ccd)
 

@@ -1,12 +1,12 @@
 # main menu navigation
 menu:
   Posts: /
-  Sitemap: /sitemap/sitemap.html
+  Sitemap: /sitemap/
 #  Archives: /archives/
   Hexo: /categories/Hexo/
   LeetCode: /categories/LeetCode/
   PWN: /categories/PWN/
-  Operation System: /categories/OS/
+  Operation System: /categories/Operation-System/
   Github: https://github.com/BenedictNgHK
   Email: mailto:yuzewuchina@gmail.com
 # Images
@@ -54,7 +54,6 @@ profile:
     instagram: 
     twitter:
 #    rss: /atom.xml
-
 # Footer widgets
 ## Don't use over than 3 widgets.
 ## availableWidgetList: [
@@ -69,6 +68,7 @@ widgets:
   - recent-posts
 #  - archives
   - categories
+
 
 # Other Services
 google_analytics: G-3WGY09S1RR
