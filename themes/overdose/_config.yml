@@ -2,13 +2,14 @@
 menu:
   Posts: /
   Sitemap: /sitemap/
+  Repo: /repo/
 #  Archives: /archives/
   # Hexo: /categories/Hexo/
   # LeetCode: /categories/LeetCode/
   # PWN: /categories/PWN/
   # Operation System: /categories/Operation-System/
   Github: https://github.com/BenedictNgHK
-  Email: mailto:yuzewuchina@gmail.com
+  Email: mailto:yuzewuchina@outlook.com
   Friend Links: /friendlinks/
 # Images
 favicon: /images/icon.png

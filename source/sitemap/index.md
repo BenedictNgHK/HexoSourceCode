@@ -7,7 +7,7 @@ title: Sitemap
 
 ## Hexo
 
-1. [Manage Hexo with Git](/Hexo/ManageHexowithGit/)
+1. [Add Google Analytics & Disqus to Your Theme](/Hexo/theme/)
 
 ## LeetCode
 
@@ -16,15 +16,17 @@ title: Sitemap
 
 ## PWN
 
-1. [Theory](/categories/PWN/theory/)
+1. [Theory](/categories/PWN/Theory/)
    1. [Segments and Sections](/PWN/SegmentsandSections/)
    2. [Endianness](/PWN/Endianness/)
    3. [Assembly](/PWN/Assembly/)
    4. [Shellcode](/PWN/Shellcode/)
 2. [Tools](/categories/PWN/Tools/)
    1. [GDB](/PWN/GDB/)
+   2. [IDA Pro](/PWN/IDA)
 
 ## Operation System
 
-1. [Virtual Machine](/OS/VirtualMachine/)
-2. [Pipe](/OS/Pipe/)
+1. [Segments and Sections](/PWN/SegmentsandSections/)
+2. [Virtual Machine](/OS/VirtualMachine/)
+3. [Pipe](/OS/Pipe/)

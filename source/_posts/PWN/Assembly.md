@@ -156,7 +156,7 @@ BYTE: 1 byte, for registers ends with `l` or `h`, e.g. `ah`.
 
 DS: data segment
 
-### INC&DEC
+### INC & DEC
 
 INC: Increase the value in register by 1
 DEC: Decrease the value in register by 1
