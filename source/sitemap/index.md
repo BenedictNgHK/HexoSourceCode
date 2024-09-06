@@ -27,6 +27,6 @@ title: Sitemap
 
 ## Operation System
 
-1. [Segments and Sections](/PWN/SegmentsandSections/)
+1. [Segments and Sections](/OS/SegmentsandSections/)
 2. [Virtual Machine](/OS/VirtualMachine/)
 3. [Pipe](/OS/Pipe/)

@@ -2,7 +2,7 @@
 title: Segments and Sections
 author: Benedict Ng
 categories:
-    - [PWN, Theory]
+    - [OS]
 ---
 ## Segments
 
