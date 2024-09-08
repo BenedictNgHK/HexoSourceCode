@@ -7,7 +7,7 @@ title: Sitemap
 
 ## Hexo
 
-1. [Add Google Analytics & Disqus to Your Theme](/Hexo/theme/)
+1. [Add Google Analytics &amp; Disqus to Your Theme](/Hexo/theme/)
 
 ## LeetCode
 
@@ -30,6 +30,7 @@ title: Sitemap
 1. [Segments and Sections](/OS/SegmentsandSections/)
 2. [Virtual Machine](/OS/VirtualMachine/)
 3. [Pipe](/OS/Pipe/)
+4. [Memory Alignment](/OS/MemoryAlignment/)
 
 ## Numerical Analysis
 

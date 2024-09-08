@@ -10,7 +10,7 @@ Generally speaking, there are 4 types of error:
 - Modeling Error
 To abstract (simplify) a mathematical model from practical
 problems, there exists an error between the model and the
-actual problem.—
+actual problem.
 
 - [Measurement Error](https://en.wikipedia.org/wiki/Observational_error)
 The values of the parameters in the model are obtained
