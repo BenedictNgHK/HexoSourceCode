@@ -29,6 +29,8 @@ default:
 ## If you don't want font, you shouldn't specify the font.
 font:
 
+# Enable Latex
+latex: true
 # Dynamic menu with scrolling
 dynamic_menu: true
 
@@ -70,7 +72,16 @@ widgets:
   - recent-posts
 #  - archives
   - categories
-
+# Latex
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  packages: amsmath # extra packages to load
+  extension_options: {}
 
 # Other Services
 google_analytics: G-3WGY09S1RR

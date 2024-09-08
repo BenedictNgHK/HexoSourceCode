@@ -30,3 +30,7 @@ title: Sitemap
 1. [Segments and Sections](/OS/SegmentsandSections/)
 2. [Virtual Machine](/OS/VirtualMachine/)
 3. [Pipe](/OS/Pipe/)
+
+## Numerical Analysis
+
+1. [Types of Error](/NumericalAnalysis/Errors)
