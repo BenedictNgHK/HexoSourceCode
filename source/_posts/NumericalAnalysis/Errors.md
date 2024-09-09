@@ -46,7 +46,7 @@ Example :
 Suppose that we want to calculate the value of $e^x$ with first 4 terms of Taylor Expansion at point 0.
 $x = 1 + \frac{x}{1!} + \frac{x^2}{2!} + ... + \frac{x^n}{n!} = \Sigma_{n = 0}^{n \to \infty}\frac{x^n}{n!}$
 $x^* = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!}$
-$R_n = x - x^* = \Sigma_{n = 4}^{n \to \infty}\frac{x^n}{n!}$
+$R_n = x^* - x = - \Sigma_{n = 4}^{n \to \infty}\frac{x^n}{n!}$
 
 ## Roundoff Error
 
@@ -58,14 +58,14 @@ Example:
 
 Only preserve the value before $p$ and abandon rest digits.
 $$
-x^* = 0.6666\space E = x - x^* = 0.000066666......
+x^* = 0.6666\space E = x^* - x = -0.000066666......
 $$
 
 ### Round-to-nearest
 
 Rounded the estimated value at digit $p$. If the number at digit $p$ is greater or equal to 5, abandon it; otherwise add the $p-1$ digit with value 1.
 $$
-x^* = 0.6667\space E = x - x^* = -0.33336666......
+x^* = 0.6667\space E = x^* - x = 0.0000333333......
 $$
 
 ### Total Error
