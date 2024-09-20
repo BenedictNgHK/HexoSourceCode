@@ -7,6 +7,8 @@ categories:
 [Reference1](https://www.youtube.com/watch?v=_riranMmtvI)
 [Reference2](https://www.youtube.com/watch?v=brDJVEPOeY8)
 [Reference3](https://stackoverflow.com/questions/832545/what-are-vertex-and-pixel-shaders)
+
+
 This is a high level overview about graphics pipeline. Some stages are programmable but the others are fixed functions. All the following stages are processed by GPU and with multithreading, which means that they are executed parallelly.
 
 ## Input Assembler (Fixed Function)
