@@ -35,3 +35,7 @@ title: Sitemap
 ## Numerical Analysis
 
 1. [Types of Error](/NumericalAnalysis/Errors)
+
+## Computer Graphics
+
+1. [Graphics Pipeline](/Graphics/Pipeline/)
