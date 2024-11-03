@@ -2,8 +2,7 @@
 menu:
   Posts: /
   Sitemap: /sitemap/
-  Repo: /repo/
-#  Archives: /archives/
+  #  Archives: /archives/
   # Hexo: /categories/Hexo/
   # LeetCode: /categories/LeetCode/
   # PWN: /categories/PWN/
@@ -49,13 +48,13 @@ profile:
   image: /images/avatar.jpg
   gravatar:
   link:
-  description: "Social Media" 
+  description: "Social Media"
   social:
     github: https://github.com/BenedictNgHK
     facebook: https://www.facebook.com/BenedictNgYuzeWu # Facebook property also used in `article:author` meta tag.
     linkedin: https://www.linkedin.com/in/yuze-wu-a100011ba
-#    email: mailto:yuzewuchina@gmail.com
-    instagram: 
+    #    email: mailto:yuzewuchina@gmail.com
+    instagram:
     twitter:
 #    rss: /atom.xml
 # Footer widgets
@@ -70,7 +69,7 @@ profile:
 ## If you don't want widget, you shouldn't specify widgets.
 widgets:
   - recent-posts
-#  - archives
+  #  - archives
   - categories
 # Latex
 mathjax:
@@ -93,7 +92,6 @@ facebook:
 fb_admin:
 twitter:
 google_plus:
-
 #liveRe
 # liveRe:
 #  uid:
